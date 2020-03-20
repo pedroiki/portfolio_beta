@@ -58,8 +58,10 @@ export default function SimpleTabs() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="The Developer" target="_blank" href="https://pedroiki.github.io/portfolio-cgomes/#My-Portfolio" />
+          <Tab label="The Developer" target="_blank" href="https://pedroiki.github.io/portfolio-cgomes/" />
+          <Tab label="My Linkedin" target="_blank" href="https://www.linkedin.com/in/pedro-zenha/" />
           <Tab label="Projets" target="_blank" href="https://pedroiki.github.io/portfolio-cgomes/#My-Portfolio" />
+          <Tab label="My Github" target="_blank" href="https://github.com/pedroiki?tab=repositories" />
           <Tab label="Contact me on whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=351919214504&text=Ol%c3%a1%21&source=&data=" />
         </Tabs>
       </AppBar>

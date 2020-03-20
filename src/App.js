@@ -33,58 +33,24 @@ class App extends React.Component {
   
 
 <br></br>
-
-
-
 <br></br>
 
-
-<Title title={"Carlos P Gomes Porfolio (React.js) "}>  </Title>
+<Title title={"Carlos P Gomes "}>  </Title>
+<p>Portfolio built with React.js</p>
 
 
             {/* <button>oi</button>
             <Button color="primary" variant="contained">oi</Button> */}
 
-
-
 <br></br>
-
-
-
-
 
             <img src="https://pedroiki.github.io/portfolio-cgomes/images/software1.gif" width="480" height="270" frameBorder="0"
              class="gif" border="rounded" ></img><p>
                </p>
-
-
-
-
-
-
-
-            
-            
-            {/* <br></br>
-            <Counter>  </Counter> */}
-
-
-
-  
-  
-  
   <div>
     
- 
-
- 
-
-
- 
 <br></br>
 <br></br>
-
-   
 
 <article>
   <h2>About me</h2>
@@ -111,62 +77,45 @@ class App extends React.Component {
 <br></br>
 
   </div>
-
-    
-
-    <iframe width="280" height="170" src="https://pedroiki.github.io/portfolio-cgomes/">
+    <iframe width="820" height="170" src="https://pedroiki.github.io/portfolio-cgomes/">
       
     </iframe>
 
-    <iframe width="280" height="170" src="https://pedroiki.github.io/costeira.praia/">
+    <iframe width="820" height="170" src="https://pedroiki.github.io/costeira.praia/">
       
     </iframe>
-
 <br></br>
-
-
-    <iframe width="280" height="170" src="https://pedroiki.github.io/mobile-tag/">
+    <iframe width="820" height="170" src="https://pedroiki.github.io/mobile-tag/">
       
     </iframe>
 
-    <iframe width="280" height="170" src="https://pedroiki.github.io/tomato_game2016/">
+    <iframe width="820" height="170" src="https://pedroiki.github.io/tomato_game2016/">
       
     </iframe>
 
-    <iframe width="280" height="170" src="https://pedroiki.github.io/Mikel_Therapist/">
+    <iframe width="820" height="170" src="https://pedroiki.github.io/Mikel_Therapist/">
       
       </iframe>
 
-      <iframe width="280" height="170" src="https://pedroiki.github.io/login-firebase/">
+      <iframe width="820" height="170" src="https://pedroiki.github.io/login-firebase/">
       
       </iframe>
 
-      <iframe width="280" height="170" src="https://pedroiki.github.io/Comics_eCommerce-beta1.0/">
+      <iframe width="820" height="170" src="https://pedroiki.github.io/Comics_eCommerce-beta1.0/">
       
       </iframe>
-
-
-
 <br></br>
 <br></br>
 <br></br>
-
-
- 
-
-
-
 <br></br>
 <br></br>
 <br></br>
-
-
-           
+  
             <Photo></Photo>
 
             <br></br>
             <br></br>
-            <br></br>
+            
 
             <a
               className="App-link"
@@ -174,44 +123,21 @@ class App extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Other Projets on Going
+              {/* Other Projets on Going */}
 
-
-              
                   
               <Bottom-container> </Bottom-container>
 
-  
-                
-
               <br></br>
               <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              
-              
-              
+              <br></br>                
             </a>
-          
-
-
- 
            <Footer></Footer>
-
-
-
         </div>
         </ThemeProvider> 
       );
     }
 }
-
-
-
-
-
-
 
 export default App;
 

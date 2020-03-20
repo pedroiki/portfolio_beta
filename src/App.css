@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color:rgba(150, 158, 37, 0.459) ; 
+  background-color:#ccf0e1 ; 
    min-height: 100vh;
 
    
@@ -25,19 +25,11 @@
   }
 }
 
-
-
-
-
 /* .Title {
 
   colour: rgb(67, 121, 67);
   
   } */
-
-
-
-
 
 
 .App-link {
